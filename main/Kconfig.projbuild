@@ -454,6 +454,9 @@ choice BOARD_TYPE
     config BOARD_TYPE_RYMCU_BIGSMART
         bool "RYMCU BigSmart"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_S3_QUAD_DOG
+        bool "S3 Quad Dog (ESP32-S3 N16R8 + NS4168 + INMP441 + 4 servos)"
+        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_SEEED_STUDIO_SENSECAP_WATCHER
         bool "Seeed Studio SenseCAP Watcher"
         depends on IDF_TARGET_ESP32S3

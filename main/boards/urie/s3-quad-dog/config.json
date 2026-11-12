@@ -1,0 +1,11 @@
+{
+    "manufacturer": "urie",
+    "type": "s3-quad-dog",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "s3-quad-dog",
+            "sdkconfig_append": []
+        }
+    ]
+}
